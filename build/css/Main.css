@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.score {
+    position: absolute;
+    z-index: 1;
+    left: 5vw;
+    bottom: 55vh;
+    font-size: 4rem;
+    font-family: Bradley Hand, cursive;
+    color: #f07070;
+    user-select: none;
+}
+
+.menu {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50% );
+    border: 2px solid #f07070;
+    z-index: 5;
+
+    font-size: 4rem;
+    font-family: Bradley Hand, cursive;
+    color: #f07070;
+    user-select: none;
+    text-align: center;
+}
+
+.start {
+    font-size: 4rem;
+    font-family: Bradley Hand, cursive;
+    color: #f07070;
+    user-select: none;
+    padding: 2rem;
+}

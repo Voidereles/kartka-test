@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "ecsy": "./ecsy.js",
+    "ecsy-three": "./ecsy-three.js",
+    "three": "./three.js",
+    "three/examples/jsm/controls/OrbitControls": "./three/examples/jsm/controls/OrbitControls.js",
+    "three/examples/jsm/libs/dat.gui.module": "./three/examples/jsm/libs/dat.gui.module.js",
+    "three/examples/jsm/libs/stats.module": "./three/examples/jsm/libs/stats.module.js",
+    "three/examples/jsm/loaders/GLTFLoader": "./three/examples/jsm/loaders/GLTFLoader.js"
+  }
+}
